@@ -52,6 +52,14 @@ namespace Calculos
             }
 
         }
+        /// <summary>
+        /// Operação Potencia
+        /// </summary>
+        /// <returns>Retorna uma potencia</returns>
+        public static Double Potencia(int x, int y)
+        {
+            return Math.Pow(x,y);
+        }
 
     }
 }
